@@ -1,0 +1,10 @@
+data/radio_sx126x.cpp.i
+data/radio.h.i
+data/TARGET_DISCO_L072CZ_LRWAN1/radio_typeABZ.cpp.i
+data/radio_sx128x.cpp.i
+data/radio_ff_arduino_sx127x.cpp.i
+data/SPIu.h.i
+data/TARGET_MOTE_L152RC/radio_mote.cpp.i
+data/SPIu.cpp.i
+data/radio_sx127x.cpp.i
+data/radio_lr1110.cpp.i
