@@ -175,7 +175,7 @@ int main()
     printf("\r\nreset-rx\r\n");
     // printf("\nEnter SF:");   // To accept the SF value from the user
     // accept_input();  // To accept the SF value from the user
-    setSF = 7;
+    setSF = 7;    // Vary from 7 to 12
     Radio::Init(&rev);
     Radio::Standby();
     Radio::LoRaModemConfig(BW_KHZ, setSF, 1);
