@@ -27,10 +27,7 @@ mbed::Serial pc(USBTX, USBRX);  // tx, rx
     #define SPREADING_FACTOR    7
     #define CF_HZ               868300000
 #endif
-static uint8_t setSF=7;
 static uint8_t i=0;
-static uint8_t new_SF_setting = 0;
-static uint8_t cycle_number = 0;
 int output_value;
 float time_per_cycle;
 DigitalOut myled(LED1);
